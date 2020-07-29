@@ -2,17 +2,18 @@
 title: "Modeling and Aggregation of Complex Annotations via Annotation Distances"
 collection: publications
 permalink: /publication/2020-04-complex-annotations
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: April 2020
+excerpt: 'Modeling annotators and their labels is valuable for ensuring collected data quality. Though many models have been proposed for binary or categorical labels, prior methods do not generalize to complex annotations (e.g., open-ended text, multivariate, or structured responses) without devising new models for each specific task. To obviate the need for task-specific modeling, we propose to model distances between labels, rather than the labels themselves. Our models are largely agnostic to the distance function; we leave it to the requesters to specify an appropriate distance function for their given annotation task. We propose three models of annotation quality, including a Bayesian hierarchical extension of multidimensional scaling which can be trained in an unsupervised or semi-supervised manner. Results show the generality and effectiveness of our models across diverse complex annotation tasks: sequence labeling, translation, syntactic parsing, and ranking.'
+date: 
 venue: 'The Web Conference 2020'
 paperurl: 'https://www.ischool.utexas.edu/~ml/papers/braylan_web2020.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+citation: 
 ---
-This paper is about the number 1. The number 2 is left for future work.
+Modeling annotators and their labels is valuable for ensuring collected data quality. Though many models have been proposed for binary or categorical labels, prior methods do not generalize to complex annotations (e.g., open-ended text, multivariate, or structured responses) without devising new models for each specific task. To obviate the need for task-specific modeling, we propose to model distances between labels, rather than the labels themselves. Our models are largely agnostic to the distance function; we leave it to the requesters to specify an appropriate distance function for their given annotation task. We propose three models of annotation quality, including a Bayesian hierarchical extension of multidimensional scaling which can be trained in an unsupervised or semi-supervised manner. Results show the generality and effectiveness of our models across diverse complex annotation tasks: sequence labeling, translation, syntactic parsing, and ranking.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+[Download paper here](https://www.ischool.utexas.edu/~ml/papers/braylan_web2020.pdf)
 
 BibTeX
+
 @inproceedings{braylan2020modeling,
   title={Modeling and Aggregation of Complex Annotations via Annotation Distances},
   author={Braylan, Alexander and Lease, Matthew},
