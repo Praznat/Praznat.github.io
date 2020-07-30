@@ -27,9 +27,9 @@
       {% endif %}
       {% if author.employer %}
         <li><a href="https://www.revionics.com/"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</a></li>
+        <li><a href="http://ir.ischool.utexas.edu/"><i class="fas fa-fw fa-link" aria-hidden="true"></i>PhD Lab - Information Retrieval & Crowdsourcing</a></li>
+        <li><a href="http://nn.cs.utexas.edu/?braylan"><i class="fas fa-fw fa-link" aria-hidden="true"></i>MS Lab - Neural Networks Research Group</a></li>
       {% endif %}
-      <li><a href="http://ir.ischool.utexas.edu/"><i class="fas fa-fw fa-link" aria-hidden="true"></i>PhD Lab - Information Retrieval & Crowdsourcing</a></li>
-      <li><a href="http://nn.cs.utexas.edu/?braylan"><i class="fas fa-fw fa-link" aria-hidden="true"></i>MS Lab - Neural Networks Research Group</a></li>
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
