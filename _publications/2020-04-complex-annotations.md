@@ -7,7 +7,7 @@ excerpt: '__Alexander Braylan and Matthew Lease__. Modeling annotators and their
 
 [Slides](https://www.slideshare.net/AlexanderBraylan/modeling-and-aggregation-of-complex-annotations)
 |
-[Presentation]
+[Video]
 (https://www.youtube.com/watch?v=Asa_Bswlvfo)
 |
 [Code]
